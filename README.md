@@ -39,11 +39,15 @@ Methods used with XGBoost:
 
 ## Results
 Notebook is live at https://www.kaggle.com/githendumukiri/notebook-xgb-hyperopt
+
 Public submission is live at https://www.kaggle.com/githendumukiri/xgb-hyperopt
 
+![](./rank.png)
 
 ## Discussion
 After learning about stock market data and common models used to tackle the problems in relation to timeseries data, I setled on an RNN using LSTM, only to come to find out that the dates and timestamps are not available rather each entry has a uniquie tsid which is stored in some form of chronological order.[6][7] 
+
+![](./data.png)
 
 I studied many of the kaggle notebooks and saw how ineffective this strategy would be given the format of the data. In addition, it seems as if the high perfroming models had turned this into a classification problem rather than a regression one. The regression approaches all focused on expert level timeseries anyalasis or feature enginering that stems from finincial theory corresponding to the resp and the feature set. All of which I was not familiiar with. [8][9]
 
