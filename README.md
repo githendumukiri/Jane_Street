@@ -1,4 +1,5 @@
 # Jane Street Market Prediction
+![](./Banner.png)
 
 ## Introduction
 “Buy low, sell high.” It sounds so easy….
